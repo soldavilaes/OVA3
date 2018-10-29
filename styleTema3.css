@@ -68,62 +68,6 @@ h4{
   font-style: italic;
 }
 
-/*header {
-  background: #161616;
-  border-bottom: 1px solid #1C1C1C;
-  box-shadow: 1px 0 2px rgba(0,0,0,.5);
-  color: #FFF;
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 10px;
-  position: fixed;
-  top: 0;
-  left: 0px;
-  right: 0;
-  vertical-laign: middle;
-  z-index: 9;
-  height: 48px;
-  width: 2000px;
-  -webkit-transform: translate3d(0,0,0);
-     -moz-transform: translate3d(0,0,0);
-          transform: translate3d(0,0,0);
-  -webkit-transition: all 500ms ease-in-out;
-     -moz-transition: all 500ms ease-in-out;
-          transition: all 500ms ease-in-out;
-}
-
-header [class*="menu-"] {
-  cursor: pointer;
-  font-size: 22px;
-  height: initial;
-  padding: 0px;
-  width: initial;
-}
-header h1 {
-  color: #FFF;
-  font-size: 24px;
-  font-weight: 100;
-  padding: 0;
-  text-shadow: 0 1px 2px rgba(0,0,0,.5);
-}
-.intro {
-  display: block;
-  top: -96px;
-  margin-right: auto;
-  height: 670px;
- /* padding: 22.5%;
-  background-color: #507DBC;
-  left: 205px;
-  
-  z-index:1;
-  -webkit-transform: translate3d(0,0,0);
-     -moz-transform: translate3d(0,0,0);
-          transform: translate3d(0,0,0);
-  -webkit-transition: all 500ms ease-in-out;
-     -moz-transition: all 500ms ease-in-out;
-          transition: all 500ms ease-in-out;
-}*/
-
 /*--------------------------
 * CAPAS DEL CONTENIDO
 ---------------------------*/
@@ -158,18 +102,6 @@ header h1 {
     top: 5px;
     left: -4px;
   }
-
- /* #pointer:after {
-    content: "";
-    position: absolute;
-    left: -20px;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-left: 15px solid white;
-    border-top: 21px solid transparent;
-    border-bottom: 21px solid transparent; 
-  }*/
 
   #pointer:before {
     content: "";
@@ -229,95 +161,6 @@ header h1 {
     -moz-border-radius: 5px;
     border-radius: 5px;
 }
-
-/*OTRAS PESTAÑAS*/
-/* ==TABS TO THE RIGHT OF ME== */
-/*
-.tab-body-container {
-  position: relative;
-  margin-top: -14px;
-  padding: 0px;
-  height: 800px;
-}
-
-.tab-group {
-  list-style: none;
-height: 34px;
-margin-bottom: 0px !important;
-position: relative;
-right: 0;
-
-}
-
-.tab-group li {
-  float: right;
-display: inline-block;
-padding: 3px 17px;
-color: #FFF;
-cursor: pointer;
-background: #808285;
-margin-right: 0px;
-border-right: 1px solid #c0c3c8;
-margin: -11px 2px;
-border-radius: 5px 5px 0px 0px;
-width: 44px;
-font-weight: bold;
-}
-
-.tab-current {
-  background: #3e7898 !important;
-}
-
-.tab-group li:first-child {
-  border-right: 0px !important;
-}
-
-.body-group {
-      background: #FFF;
-    margin: -10px;
-    padding: 0px;
-    width: 947px;
-    height: 465px;
-    margin-left: 10px;
-    border-radius: 5px 0px 5px 5px;
-}
-
-.body-group li {
-  list-style: none;
-  display: none;
-  position: relative;
-  padding: 15px;
-}
-
-/* ==TABS TO THE LEFT OF ME== */
-/*
-.tab-body-container-secondary .tab-group {
-  padding: 0px;
-}
-
-.tab-body-container-secondary .tab-group li {
-  float: left;
-  background: #b4c4d4;
-  border-right: 1px solid #dde8f3;
-}
-
-.tab-body-container-secondary .tab-group li:first-child {
-  border-right: 1px solid #dde8f3 !important;
-}
-
-.tab-body-container-secondary .tab-group li:last-child {
-  border-right: 0px !important;
-}
-
-.tab-body-container-secondary .body-group {
-  background: #e7e8e9 !important;
-}
-
-.white-bgk {
-  background: #FFF;
-  margin: -15px -15px;
-  padding: 10px 4px;
-}*/
 
 /*--------------------------------
 * IMAGEN DE INDICACION - PESTAÑAS
